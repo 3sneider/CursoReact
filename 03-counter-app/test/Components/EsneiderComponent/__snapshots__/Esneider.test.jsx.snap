@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pruebas en esneider componene debe hacer match con el snapshot 1`] = `
+<div>
+  <h1
+    data-testid="test-title"
+  >
+    titulo de pruebas
+  </h1>
+  <h2 />
+  <p>
+    para escribir en el hatml lo hacemos dentro de corchetes como aqui 1 + 2 =  
+    3
+  </p>
+  <p>
+    Tambien se puede hacer con variables como : 
+    Desde una variable
+  </p>
+  <p>
+    Tambien se pueden enviar objetos pero hay que sanitizarlos 
+    {"nombre":"Esneider","edad":31}
+  </p>
+  <p>
+    se pueden llamar datos desde funciones 
+    Hello World
+  </p>
+  <p>
+    ahora, para colocar estilos podemos crear el css en la misma carpeta del componenete
+  </p>
+  <p>
+    e importarlo en el componente para que lo tome, a menos que sea un estilo global, estos estilos si estan en la raiz de src
+  </p>
+  <p>
+    las proptypes se instalan si trabajas con vite, si no ya viene por defecto
+  </p>
+  <p>
+    podemos hacer uso de propiedades por defecto en caso de que el padre no nos envie nada pero no queramos disparar un error
+  </p>
+  <p>
+    en este caso por ejemplo no lo envian y tenemos el siguiente mensaje 
+  </p>
+  <p>
+    las propiedad es por defecto se pueden crear tabien como un objeto
+  </p>
+</div>
+`;

@@ -1,0 +1,96 @@
+react es una libreria que nos premite crear aplicaciones que se pueden incrustar hasta en sun simple h
+
+
+para trabajar con react 
+
+primero debemos contar con una version de node js
+segundo debemos instalar el paquete para crear aplicaciones con react  
+    npm install create-react-app -g
+
+ya podriamos crear una aplicacin en react con el comando npx
+    npx create-react-app my-app
+
+el complemento para poder trabajar con metodos asincronos es el siguiente 
+    npm install whatwg-fetch --save
+
+el complemento para poder crear el tema de rutas es el siguiente
+    npm install --save react-router
+    npm install --save react-router-dom
+
+una vez repasado javascript empezamos con lo que realmente es react
+
+Que son los componentes 
+
+es una pequeña pieza de codigo encapsula da reutilizabla que puede tener estado o no
+el estado inicial es como se encuentra la informacion de un componenete cuando se inicial
+cuando se hacen modificaciones a un valor y se muestra la info, eso cambia el estado
+como se encuentra el componenete en un estado del tiempo es la correcta deficinion de estado 
+
+para crear una aplicacion en react se puede con el CRA como en la linea 8
+existe una forma llamada vite que tiende a ser mas eficiente
+
+con vite nos pide los datos de entrada de la aplicacion.
+el comando para crear aplicaciones por vite seria
+
+    npm create vite
+
+una vez creado instalamos las dependencias con el siguiente comando 
+
+    npm i
+
+para crear componentes y crear nuestras functional components lo hacemos de la siguiente manera
+
+    se crea un nuevo archivo de nombre xxxApp.jsx
+    se pueden crear dentro de una capeta para relacinar los estilos
+    un acceso difrecto es rafc, es como el prop de c#
+
+un tip para dar formato a los estilos es ctrl p, sort line en un cess y los osrdena de manera alfavetica
+
+para la comunicacion entre componenetes usamos un concepto llamado props que son las propiedades que 
+se le envian a esa funcion, se reciben como porpiedadesd esde la instancia del componenete
+
+
+
+-----------------------
+
+A-A-a
+Arrange - Arreglar - el paso donde se establece el estado inicial, se inicializan variable
+Act - Actuar - aplicar estimulos al programa
+Assert - Afirmaciones - Observar el comportamiento resultante
+
+
+con cra ya viene configurado todo el tema de pruebas
+con vite no viene entonces podemos configurarlo desde 0, solo se hace una primera vezy se sigue utilizando 
+
+Jest es una libreria para hacer pruebas en javascript
+
+   npm install --save-dev jest
+   npm install -D @types/jest
+   npm install --save-dev babel-jest @babel/core @babel/preset-env   // seguit documentacion jest using babel
+
+para correr las pruenas unitarias
+
+   npm test
+
+un paquete importatnte para pruebas asyn seria el 
+
+    npm install -D whatwg-fetch
+
+un paquete con el que tambien podemos hacer pruenbas en nuestros componentes se llama react resting library
+la cual puede funcionar en conjunto con el jest el comando para instalarlo seria el siguiente, RTL es muy bueno para 
+trabajar con el DOM, si se esta trabajando con el cli este ya tra intalado todo este paquete de librerias
+
+    npm install --save-dev @testing-library/react
+    npm i --save-dev  jest-environment-jsdom
+    @babel/preset-react
+
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+New Aplication
+
+comando esjecutados en orden usando vite
+
+npm create vite  
+npm install
+    npm run dev
